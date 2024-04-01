@@ -1,0 +1,102 @@
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+body, html, body{
+    background-color: black;
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(img/bg2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.options{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-family: Inter, Arial;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    user-select: none;
+    transition: all 0.5s;
+}
+
+.header{
+    margin-bottom: 5%;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: -5%;
+
+}
+
+.blur{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Game-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.divider{
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.125);
+    height: 80%;
+}
+
+.game-icon{
+    height: 30%;
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+.game-icon-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.stats-container{
+    width: 80%;
+    height: 50%;
+    backdrop-filter: blur(50px) saturate(250%);
+    -webkit-backdrop-filter: blur(50px) saturate(250%);
+    background-color: rgba(17, 25, 40, 0.76);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
